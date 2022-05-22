@@ -26,7 +26,7 @@ const Covid20 = () => {
                             return (
                                 <tr key = {index}>
                                     <th>{current.state}</th>
-                                    <th>{current.deaths }</th>
+                                    <th>{current.deaths  }</th>
                                 </tr>
                             );
                         })

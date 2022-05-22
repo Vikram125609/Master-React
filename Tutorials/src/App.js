@@ -1,9 +1,9 @@
 import React from 'react'
-import Tut54 from './components/Tut54';
+import Tut55 from './components/Tut55';
 const App = () => {
     return (
         <>
-            <Tut54 />
+            <Tut55 />
         </>
     );
 }
