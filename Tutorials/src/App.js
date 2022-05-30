@@ -1,35 +1,31 @@
-// import React from 'react'
-// import { Route, Routes } from 'react-router-dom';
-// import Tut56 from './components/Tut56';
-// import Contact from './components/Tut56/Contact';
+// import React from 'react';
+// import { Routes, Route } from 'react-router-dom';
+// import Home from './components/React Router/Home';
+// import About from './components/React Router/About';
+// import Contact from './components/React Router/Contact';
+// import Navbar from './components/React Router/Navbar';
+// import Order from './components/React Router/Order';
 // const App = () => {
-//     return (
-//         <>
-//             <Routes>
-//                 <Route path="/" element={<Tut56 />} />
-//                 <Route path="/contact" element={<Contact />} />
-//             </Routes>
-//         </>
-//     );
-// }
-// export default App; 
+//   return (
+//     <>
+//       <Navbar />
+//       <Routes>
+//         <Route path='/' element={<Home />}></Route>
+//         <Route path='/about' element={<About />}></Route>
+//         <Route path='/contact' element={<Contact />}></Route>
+//         <Route path='/order-summary' element={<Order />}></Route>
+//       </Routes>
+//     </>
+//   );
+// };
+// export default App;
 
-import { Outlet, Link } from "react-router-dom";
-
-export default function App() {
+// CRUD OPERATION IN FIREBASE
+import React from "react";
+const App = () =>{
   return (
-    <div>
-      <h1>Bookkeeper</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
-      </nav>
-      <Outlet />
-    </div>
+    <>
+      <h1>Crud Operation React Firebase</h1>
+    </>
   );
-}
+};

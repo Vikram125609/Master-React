@@ -1,0 +1,15 @@
+const Router = () => {
+    return (
+        <>
+            <h1>Hello World Today i am mastering react router by Viswas</h1>
+            <h2>Configuring Routes</h2>
+            <h2>Navigating programmatically </h2>
+            <h2>Dynamic Routes </h2>
+            <h2>Nested Routes</h2>
+            <h2>Route Parameters</h2>
+            <h2>Lazy loading</h2>
+            <h2>Authentication</h2>
+        </>
+    );
+};
+export default Router;

@@ -29,7 +29,7 @@ const App = () => {
   }
   const logout = async () => {
     await signOut(auth)
-  }
+  } 
   return (
     <>
       <div className="App">
